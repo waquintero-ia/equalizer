@@ -45,8 +45,8 @@ Mobile
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-equalizer-landing-page-react-tailwind-tj7fvj_3K6](https://your-solution-url.com)
+- Live Site URL: [https://waquintero-ia.github.io/equalizer/](https://your-live-site-url.com)
 
 ## Author
 

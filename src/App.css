@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  min-height: 100vh;
+}
+
+.icon-apple:hover,
+.icon-apple:focus,
+.icon-apple:active {
+  @apply cursor-pointer;
+  @apply bg-cyan;
+  @apply text-slate;
+}
+
+.icon-android:hover,
+.icon-android:focus,
+.icon-android:active {
+  @apply cursor-pointer;
+  @apply bg-yellow;
+}
+
+.socials-media svg:hover,
+.socials-media svg:focus,
+.socials-media svg:active {
+  @apply cursor-pointer;
+  @apply text-orange;
+  @apply fill-current;
+}
+
+
+
+@media (min-width: 344px) {
+  .custom-bg-size {
+    background-image: url('/assets/bg-main-mobile.png');
+    background-size: 384px 655px;
+    background-position-x: 184px;
+    background-position-y: -152px;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 768px) {
+  .custom-bg-size {
+    background-image: 
+      url('/assets/bg-pattern-1.svg'),
+      url('/assets/bg-main-tablet.png');
+    background-size: 
+      266.67px 400px,
+      781px 951px;
+    background-position:
+      551px -40px, 
+      -150px -250px;
+    background-repeat: 
+      no-repeat,
+      no-repeat;
+  }
+}
+
+@media (min-width: 1440px) {
+  .custom-bg-size {
+    background-image: 
+      url('/assets/bg-pattern-1.svg'),
+      url('/assets/bg-main-tablet.png');
+    background-size: 
+      312px 468px,
+      1500px 951px;
+    background-position:
+      1128px -40px, 
+      -200px -200px;
+    background-repeat: 
+      no-repeat,
+      no-repeat;
+  }
+}
+
+.custom-bg-md {
+  background-image: url('/assets/bg-pattern-2.svg');
+  background-size: 550px 855px;
+  background-position-x: 60px;
+  background-position-y: -250px;
+  background-repeat: no-repeat;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+
+}

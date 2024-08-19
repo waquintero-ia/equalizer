@@ -37,7 +37,7 @@ const Hero = () => {
         <div className="mobile-container-illustration w-full h-[380] flex justify-center mt-[110px] md:mt-0 md:py-200 md:px-40 md:h-full xl:px-0 xlg:w-1120 xlg:mx-auto">
           
           <div className="mobile-container-background bg-slate w-full md:w-full md:h-[600px] md:rounded-[12px]">
-            <img className="z-10 relative w-[312px] h-[468px] mx-auto md:mx-0 xlg:ml-[368px]" src="./assets/bg-pattern-2.svg"/>
+            <img className="z-10 relative w-[312px] h-[468px] mx-auto md:mx-0 xlg:ml-[368px]" src="./assets/bg-pattern-2.svg" alt="background"/>
           </div>
          
         </div>  
